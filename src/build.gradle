@@ -9,12 +9,8 @@ android {
 
     compileSdk 35
 
-
-
-    def verCode = 260
-    def verName = "5.02.02"
-
-
+    def verCode = 277
+    def verName = "5.04.09"
 
     defaultConfig {
         applicationId "com.softifybd.ispdigital"
@@ -1373,8 +1369,8 @@ android {
             keyAlias "softifybd"
             keyPassword "abc-1234"
         }
-        speedtechselfcare {
-            storeFile file('speedtechselfcare.jks')
+        speedtechselfcarenew {
+            storeFile file('speedtechselfcarenew.jks')
             storePassword "abc-1234"
             keyAlias "softifybd"
             keyPassword "abc-1234"
@@ -2719,7 +2715,7 @@ android {
             keyAlias "softifybd"
             keyPassword "abc-1234"
         }
-
+        //keyalis- key0
         starinternet {
             storeFile file('starinternet.jks')
             storePassword "abc-1234"
@@ -4377,6 +4373,225 @@ android {
             keyAlias "softifybd"
             keyPassword "abc-1234"
         }
+        csdn {
+            storeFile file('csdn.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        smartlink {
+            storeFile file('smartlink.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sritsolution {
+            storeFile file('sritsolution.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        threenet {
+            storeFile file('threenet.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        stclapp {
+            storeFile file('stclapp.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mirsaraionline {
+            storeFile file('mirsaraionline.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jagonetwork {
+            storeFile file('jagonetwork.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        fenidotcom {
+            storeFile file('fenidotcom.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        airconnectnetwork {
+            storeFile file('airconnectnetwork.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mponline {
+            storeFile file('mponline.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        arishonline {
+            storeFile file('arishonline.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bbts {
+            storeFile file('bbts.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        extranettechnologies {
+            storeFile file('extranettechnologies.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        teratel {
+            storeFile file('teratel.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        dhamtionline {
+            storeFile file('dhamtionline.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bonarparabroadband {
+            storeFile file('bonarparabroadband.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        connectfast {
+            storeFile file('connectfast.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        incomit {
+            storeFile file('incomit.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sdnetwork {
+            storeFile file('sdnetwork.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        econet {
+            storeFile file('econet.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        seamonline {
+            storeFile file('seamonline.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        srnetwork {
+            storeFile file('srnetwork.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        adcl {
+            storeFile file('adcl.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        dishatelecom {
+            storeFile file('dishatelecom.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        newexpressonline {
+            storeFile file('newexpressonline.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        rdpnet {
+            storeFile file('rdpnet.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bellalcablenetwork {
+            storeFile file('bellalcablenetwork.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        kahfinternet {
+            storeFile file('kahfinternet.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        myhobd {
+            storeFile file('myhobd.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        axishosted {
+            storeFile file('axishosted.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        realit {
+            storeFile file('realit.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        apaceinternet {
+            storeFile file('apaceinternet.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        zeedoottechsolution {
+            storeFile file('zeedoottechsolution.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        techroverbroadways {
+            storeFile file('techroverbroadways.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        hyperbroadband {
+            storeFile file('hyperbroadband.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        lookmedianetwork {
+            storeFile file('lookmedianetwork.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+
+
 
 
 
@@ -5964,11 +6179,11 @@ android {
             signingConfig signingConfigs.tdotnet
             buildConfigField "String", "TYPE", '"free"'
         }
-        speedTechSelfcare {
-            applicationId "com.softifybd.speedtechselfcare"
+        speedTechSelfcareNew {
+            applicationId "com.softifybd.speedtechselfcarenew"
             versionCode verCode
             versionName verName
-            signingConfig signingConfigs.speedtechselfcare
+            signingConfig signingConfigs.speedtechselfcarenew
             buildConfigField "String", "TYPE", '"free"'
         }
         eNetBd {
@@ -7563,7 +7778,7 @@ android {
             signingConfig signingConfigs.sayemonline
             buildConfigField "String", "TYPE", '"free"'
         }
-
+        //keyalis- key0
         starinternet {
             applicationId "com.softifybd.starinternet"
             versionCode verCode
@@ -8723,6 +8938,7 @@ android {
             buildConfigField "String", "TYPE", '"free"'
         }
 
+        // key Password : abc-1234
         sofNet {
             applicationId "com.softifybd.sofnet"
             versionCode verCode
@@ -9688,6 +9904,284 @@ android {
             signingConfig signingConfigs.cybersign
             buildConfigField "String", "TYPE", '"free"'
         }
+        cSDN {
+            applicationId "com.softifybd.csdn"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.csdn
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        smartLink {
+            applicationId "com.softifybd.smartlink"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.smartlink
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        sRITSolution {
+            applicationId "com.softifybd.sritsolution"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.sritsolution
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        threeNet {
+            applicationId "com.softifybd.threenet"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.threenet
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        sTCLApp {
+            applicationId "com.softifybd.stclapp"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.stclapp
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        mirsaraiOnline {
+            applicationId "com.softifybd.mirsaraionline"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.mirsaraionline
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        jagoNetwork {
+            applicationId "com.softifybd.jagonetwork"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.jagonetwork
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        feniDotcom {
+            applicationId "com.softifybd.fenidotcom"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.fenidotcom
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        airConnectNetwork {
+            applicationId "com.softifybd.airconnectnetwork"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.airconnectnetwork
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        mPOnline {
+            applicationId "com.softifybd.mponline"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.mponline
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        arishOnline {
+            applicationId "com.softifybd.arishonline"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.arishonline
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        bBTS {
+            applicationId "com.softifybd.bbts"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.bbts
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        extranetTechnologies {
+            applicationId "com.softifybd.extranettechnologies"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.extranettechnologies
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        teraTel {
+            applicationId "com.softifybd.teratel"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.teratel
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        dhamtioOline {
+            applicationId "com.softifybd.dhamtionline"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.dhamtionline
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        bonarparaBroadband {
+            applicationId "com.softifybd.bonarparabroadband"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.bonarparabroadband
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        connectfast {
+            applicationId "com.softifybd.connectfast" // Icon nay
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.connectfast
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        incomit {
+            applicationId "com.softifybd.incomit"   // icon nay
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.incomit
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        sdNetwork {
+            applicationId "com.softifybd.sdnetwork"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.sdnetwork
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        ecoNet {
+            applicationId "com.softifybd.econet"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.econet
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        seamOnline {
+            applicationId "com.softifybd.seamonline"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.seamonline
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        sRNetwork {
+            applicationId "com.softifybd.srnetwork"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.srnetwork
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        adcL {
+            applicationId "com.softifybd.adcl"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.adcl
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        dishaTELECOM {
+            applicationId "com.softifybd.dishatelecom"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.dishatelecom
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        newexpressOnline {
+            applicationId "com.softifybd.newexpressonline"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.newexpressonline
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        rdpNet {
+            applicationId "com.softifybd.rdpnet"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.rdpnet
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        bellalCableNetWork {
+            applicationId "com.softifybd.bellalcablenetwork"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.bellalcablenetwork
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        kahfInternet {
+            applicationId "com.softifybd.kahfinternet"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.kahfinternet
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        myhoBD {
+            applicationId "com.softifybd.myhobd"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.myhobd
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        axisHosted {
+            applicationId "com.softifybd.axishosted"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.axishosted
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        realIT {
+            applicationId "com.softifybd.realit"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.realit
+            buildConfigField "String", "TYPE", '"free"'
+        }
+        apaceInternet {
+            applicationId "com.softifybd.apaceinternet"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.apaceinternet
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        zeedoottechSolution {
+            applicationId "com.softifybd.zeedoottechsolution"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.zeedoottechsolution
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        techroverBroadways {
+            applicationId "com.softifybd.techroverbroadways"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.techroverbroadways
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        hyperBROADBAND {
+            applicationId "com.softifybd.hyperbroadband"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.hyperbroadband
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+        lookMediaNetwork {
+            applicationId "com.softifybd.lookmedianetwork"
+            versionCode verCode
+            versionName verName
+            signingConfig signingConfigs.lookmedianetwork
+            buildConfigField "String", "TYPE", '"free"'
+        }
+
+
+
 
 
 
@@ -9697,8 +10191,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     buildFeatures {
@@ -9833,11 +10327,19 @@ android {
         implementation 'com.google.firebase:firebase-messaging:24.0.3'
         implementation 'com.squareup:android-times-square:1.6.5@aar'
         implementation 'com.github.swapnil1104:CurveGraphView:1.1.3'
+        //Sample implementation sunmi printer library
+        implementation 'com.sunmi:printerx:latest.release'
 
+        //phone number validation
+        implementation 'com.googlecode.libphonenumber:libphonenumber:8.13.55'
     }
 
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.navigation:navigation-fragment:2.8.8'
+    implementation 'androidx.navigation:navigation-ui:2.8.8'
 }

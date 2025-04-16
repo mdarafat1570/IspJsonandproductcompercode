@@ -1,0 +1,4078 @@
+ext.flavorConfig = {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId rootProject.ext.applicationId
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    flavorDimensions "default"
+
+    //region signInConfig
+    signingConfigs {
+        edufy {
+            storeFile file("edufy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        edufybeta {
+            storeFile file("edufybeta.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        edufytest {
+            storeFile file("edufytest.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bmjalal {
+            storeFile file("bmjalal.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        horipurmodelpublic {
+            storeFile file("horipurmodelpublic.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        madaripuridealschoolandcollege {
+            storeFile file("madaripuridealschoolandcollege.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        madrasatulitisamalarabia {
+            storeFile file("madrasatulitisamalarabia.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        salehabadmadrashacomplex {
+            storeFile file("salehabadmadrashacomplex.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markazutalimissunnahjamalpur {
+            storeFile file("markazutalimissunnahjamalpur.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        baroialgymodelschool {
+            storeFile file("baroialgymodelschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darunnazatmodelmadrasah{
+            storeFile file("darunnazatmodelmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jameatulazharmadrasah{
+            storeFile file("jameatulazharmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ummehabibagirlsmadrasha{
+            storeFile file("ummehabibagirlsmadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        aylasharafatiamadrasah{
+            storeFile file("aylasharafatiamadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        motherlandschool{
+            storeFile file("motherlandschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        feniidealdakhilmadrasha{
+            storeFile file("feniidealdakhilmadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        soyaschoolandcollegenew{
+            storeFile file("soyaschoolandcollegenew.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darululoomislamikindergarten{
+            storeFile file("darululoomislamikindergarten.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        baytulilmgirlsmadrasah {
+            storeFile file("baytulilmgirlsmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        sutarmuraidealacademy{
+            storeFile file("sutarmuraidealacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ssmultimediaacademy{
+            storeFile file("ssmultimediaacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sunbeamskgschool{
+            storeFile file("sunbeamskgschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        hiranureducation{
+            storeFile file("hiranureducation.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        hiyamodelschoolsirajganj{
+            storeFile file("hiyamodelschoolsirajganj.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mozammelhaqueschoolandcollege{
+            storeFile file("mozammelhaqueschoolandcollege.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        protivashishuacademy{
+            storeFile file("protivashishuacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        qubamadrasahcomplex{
+            storeFile file("qubamadrasahcomplex.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        iqranooranikindergarten{
+            storeFile file("iqranooranikindergarten.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ramjanpuridealtechnicalacademy{
+            storeFile file("ramjanpuridealtechnicalacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markajunnurmodelmadrasa{
+            storeFile file("markajunnurmodelmadrasa.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        newyorkkindergartenschool{
+            storeFile file("newyorkkindergartenschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        afiluddinhafizianuranikindergarten{
+            storeFile file("afiluddinhafizianuranikindergarten.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        khirshinhighschool{
+            storeFile file("khirshinhighschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darulquranmodelmadrasha{
+            storeFile file("darulquranmodelmadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jamiarawjatuljannahmadrasha{
+            storeFile file("jamiarawjatuljannahmadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mrmschoolandcollege{
+            storeFile file("mrmschoolandcollege.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        islambaghidealcollege{
+            storeFile file("islambaghidealcollege.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        talimulislamidealmadrasha{
+            storeFile file("talimulislamidealmadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alheraidealmadrasah{
+            storeFile file("alheraidealmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        salimadrasha{
+            storeFile file("salimadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        reviewprivatecenter{
+            storeFile file("reviewprivatecenter.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        shahidcadetacademy{
+            storeFile file("shahidcadetacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jabalenoorgirlsmadrasah{
+            storeFile file("jabalenoorgirlsmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mohaligdakhilmadrasah{
+            storeFile file("mohaligdakhilmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        iqracadetmadrashanabiganjnew{
+            storeFile file("iqracadetmadrashanabiganjnew.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        khidmatulquranadarshamadrashanew{
+            storeFile file("khidmatulquranadarshamadrashanew.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tazkiatulummahmodelmadrasahnew{
+            storeFile file("tazkiatulummahmodelmadrasahnew.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sparkresidentialcollege{
+            storeFile file("sparkresidentialcollege.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        aljamiatulislamiahrajshahi{
+            storeFile file("aljamiatulislamiahrajshahi.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        kapasgolaadarshamadrasah{
+            storeFile file("kapasgolaadarshamadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sunlighteducationalcottage{
+            storeFile file("sunlighteducationalcottage.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        // New App jks name greenfieldschoolnewapp
+        greenfieldschoolnewapp{
+            storeFile file("greenfieldschoolnewapp.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markazululoommodelmadrasa{                            //Edufy App : 26-7-2023 playstore_ver_3.7.9
+            storeFile file("markazululoommodelmadrasa.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tlimussunnahmadrasha{
+            storeFile file("tlimussunnahmadrasha.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markazuttaqwa{
+            storeFile file("markazuttaqwa.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        solimacomputerinstitute{
+            storeFile file("solimacomputerinstitute.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        creativeeducationfamily{
+            storeFile file("creativeeducationfamily.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        makkinagarmadrasa{
+            storeFile file("makkinagarmadrasa.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ambitionenglishacademy{
+            storeFile file("ambitionenglishacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ariarcadetmadrasah {
+            storeFile file("ariarcadetmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        birahimpurhighschool{
+            storeFile file("birahimpurhighschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        anandapathshala{
+            storeFile file("anandapathshala.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ummulqura{
+            storeFile file("ummulqura.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markajuttamrinalislamiactg{
+            storeFile file("markajuttamrinalislamiactg.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        pioneermodelacademy{
+            storeFile file("pioneermodelacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mtfedufy{
+            storeFile file("mtfedufy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bagdhaibtedayecadetmadrasah{
+            storeFile file("bagdhaibtedayecadetmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alhidayaislamicadetacademy{
+            storeFile file("alhidayaislamicadetacademy.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        idealdakhilmadrasah{
+            storeFile file("idealdakhilmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ngmnationalgirlsmadrasah{
+            storeFile file("ngmnationalgirlsmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        talimussunnahhifzmadrasa{
+            storeFile file("talimussunnahhifzmadrasa.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        zunnoorainintmadrasah{
+            storeFile file("zunnoorainintmadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        morningbirdschool{
+            storeFile file("morningbirdschool.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darululumaminiamadrasah{
+            storeFile file("darululumaminiamadrasah.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        balarampuradarshacollege{
+            storeFile file("balarampuradarshacollege.jks")
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mbpcacademy {              //Date : 12-10-2023
+            storeFile file('mbpcacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        bqwm {
+            storeFile file('bqwm.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        mirpurdarunnazatmadrasha {
+            storeFile file('mirpurdarunnazatmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+
+
+        raziakhatunmohilamadrasah {
+            storeFile file('raziakhatunmohilamadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+//        dilsadpurrhhighschool {
+//            storeFile file('dilsadpurrhhighschool.jks')
+//            storePassword "abc-1234"
+//            keyAlias "softifybd"
+//            keyPassword "abc-1234"
+//        }
+
+        nqgmadrasha {
+            storeFile file('nqgmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+//date :29-10-2023
+
+        tahjibulummahmadrassah {
+            storeFile file('tahjibulummahmadrassah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        iqraaljamiamohilamadrasah {
+            storeFile file('iqraaljamiamohilamadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        misbahulquranbalikamadrasa {
+            storeFile file('misbahulquranbalikamadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jamiaelasiaislamia {
+            storeFile file('jamiaelasiaislamia.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tahsinulquranmadrasa {
+            storeFile file('tahsinulquranmadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        //Date : 5-11-2023
+        ahsanulhadithmadrasah {
+            storeFile file('ahsanulhadithmadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+
+        darululoomkujurdiamadrasa {
+            storeFile file('darululoomkujurdiamadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        holydreamacademy {
+            storeFile file('holydreamacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alheradashmina {
+            storeFile file('alheradashmina.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        // Date : 16-11-2023
+
+        markazulhikmahnoakhali {
+            storeFile file('markazulhikmahnoakhali.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        holyquranmadrashaandkindergartentim{
+            storeFile file('holyquranmadrashaandkindergartentim.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        smartmerit{
+            storeFile file('smartmerit.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        jannatulmawamodelmadrasah{
+            storeFile file('jannatulmawamodelmadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        yardintschoolandcollege{
+            storeFile file('yardintschoolandcollege.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jamiadarussunnahmadrasha {
+            storeFile file('jamiadarussunnahmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        sonaipulidealhifzmadrasah{
+            storeFile file('sonaipulidealhifzmadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        adarshaacademy{
+            storeFile file('adarshaacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        taqwainterhifzmadrasha{
+            storeFile file('taqwainterhifzmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+
+        dilsadpurrhhighschoolnewapp{
+            storeFile file('dilsadpurrhhighschoolnewapp.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+// Date : 25-12-23
+
+        alordisharimodelmadrasah{
+            storeFile file('alordisharimodelmadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        hazrotmariamakawmiamad{
+            storeFile file('hazrotmariamakawmiamad.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        habibullahhifzcadetmadrasha{
+            storeFile file('habibullahhifzcadetmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        bluestarpublicschool{
+            storeFile file('bluestarpublicschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        challangekindergarten{
+            storeFile file('challangekindergarten.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        kakraparamodelmadrasah{
+            storeFile file('kakraparamodelmadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        alquranmodelmadrasha{
+            storeFile file('alquranmodelmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        talimulquranprecadetmadrasa{
+            storeFile file('talimulquranprecadetmadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        darululoomnalpatwamadrasa{
+            storeFile file('darululoomnalpatwamadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        alamanahamt{
+            storeFile file('alamanahamt.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        abdurrahmanadarshaacademy{
+            storeFile file('abdurrahmanadarshaacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        nadiyatulqurangirlsmadrasha{
+            storeFile file('nadiyatulqurangirlsmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        emmas{
+            storeFile file('emmas.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        quranicscienceschool{
+            storeFile file('quranicscienceschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        mqmuqm{
+            storeFile file('mqmuqm.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        uschash{
+            storeFile file('uschash.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        rits{
+            storeFile file('rits.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        badshamiahdarulquranmadrasha{
+            storeFile file('badshamiahdarulquranmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        tymm{
+            storeFile file('tymm.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        uqha{
+            storeFile file('uqha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        annooracademybenapole{
+            storeFile file('annooracademybenapole.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        meritoriousidealschool{
+            storeFile file('meritoriousidealschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        madinatululummadrasadhaka{
+            storeFile file('madinatululummadrasadhaka.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        fcaisa{
+            storeFile file('fcaisa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darululoomgirlsmadrasha{
+            storeFile file('darululoomgirlsmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        attaqwaeducationalacademy{
+            storeFile file('attaqwaeducationalacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        saturiaunitedmodelschool{
+            storeFile file('saturiaunitedmodelschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        raianacademycomilla{
+            storeFile file('raianacademycomilla.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        titagrammadrasha{
+            storeFile file('titagrammadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        phulbaricadetacademy{
+            storeFile file('phulbaricadetacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        almanaratmodelmadrasha{
+            storeFile file('almanaratmodelmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        faizanislamicschool{
+            storeFile file('faizanislamicschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        pagarbaitululoommadrasah{
+            storeFile file('pagarbaitululoommadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        littleangelintschool{
+            storeFile file('littleangelintschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        thedux{
+            storeFile file('thedux.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        kodalpuridealschool{
+            storeFile file('kodalpuridealschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        annurkindergarten{
+            storeFile file('annurkindergarten.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tahfizulqurankarimiyamadrasha{
+            storeFile file('tahfizulqurankarimiyamadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mohammadiaislamiamadrasha{
+            storeFile file('mohammadiaislamiamadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ramgonjislamicculturalacademy{
+            storeFile file('ramgonjislamicculturalacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mohammadiaislamiamadrashanew{
+            storeFile file('mohammadiaislamiamadrashanew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tahfizulqurankarimiyamadrashanew{
+            storeFile file('tahfizulqurankarimiyamadrashanew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jagoroniadorsobiddaloy{
+            storeFile file('jagoroniadorsobiddaloy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darussunnahnuranimadrasha{
+            storeFile file('darussunnahnuranimadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alharamainmadrasa{
+            storeFile file('alharamainmadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        idealnongovtprimaryschool{
+            storeFile file('idealnongovtprimaryschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        madrasatutarbiyatilmadinakindergarten{
+            storeFile file('madrasatutarbiyatilmadinakindergarten.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tahfizulqurankarimiyamadrashanewone{
+            storeFile file('tahfizulqurankarimiyamadrashanewone.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        abuhurairaraadarshacademy{
+            storeFile file('abuhurairaraadarshacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darulazharnoakhali{
+            storeFile file('darulazharnoakhali.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        idealschoolmohadevpur{
+            storeFile file('idealschoolmohadevpur.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bmlabschool{
+            storeFile file('bmlabschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tqurankarimiamadrasa{
+            storeFile file('tqurankarimiamadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ideamodelpublicschool{
+            storeFile file('ideamodelpublicschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markazussunnahassalafi{
+            storeFile file('markazussunnahassalafi.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        studentsstudypoint{
+            storeFile file('studentsstudypoint.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darussalamhussainiamadrasah{
+            storeFile file('darussalamhussainiamadrasah.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        halimakhatunislamicacademy{
+            storeFile file('halimakhatunislamicacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tqurankarimiamadrasanew{
+            storeFile file('tqurankarimiamadrasanew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        ranigonjfatimatujjahrar{
+            storeFile file('ranigonjfatimatujjahrar.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sabilurrashadmadrasa{
+            storeFile file('sabilurrashadmadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jamiamanaruttawheednew{
+            storeFile file('jamiamanaruttawheednew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markazuttaqwama{
+            storeFile file('markazuttaqwama.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        rajucadetschooltangail{
+            storeFile file('rajucadetschooltangail.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        damm{
+            storeFile file('damm.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        jabalenoor{
+            storeFile file('jabalenoor.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        raianacademy{
+            storeFile file('raianacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        nisuraschool{
+            storeFile file('nisuraschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+
+        darulquranonlineacademy{
+            storeFile file('darulquranonlineacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        fjrmohilaqawmimadrasa{
+            storeFile file('fjrmohilaqawmimadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        madrasatulmadinanjohurnewapp{
+            storeFile file('madrasatulmadinanjohurnewapp.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        fjrmohilamadrasa{
+            storeFile file('fjrmohilamadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        daruttaqwamadrasahapp{
+            storeFile file('daruttaqwamadrasahapp.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tanjimulhikmahmodelacademy{
+            storeFile file('tanjimulhikmahmodelacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        bchapitolammrdmadrasha{
+            storeFile file('bchapitolammrdmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        madrasatumadinahanewapp{
+            storeFile file('madrasatumadinahanewapp.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        hazratShahjalalRhMadrashanew{
+            storeFile file('hazratShahjalalRhMadrashanew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alarafahislamicschool{
+            storeFile file('alarafahislamicschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        iqramodelmadrasa{
+            storeFile file('iqramodelmadrasa.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darulquranonlineacademynew{
+            storeFile file('darulquranonlineacademynew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mohanpurmadrasha{
+            storeFile file('mohanpurmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        nowdulyidealKindergarten{
+            storeFile file('nowdulyidealKindergarten.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alkarimidealacademynew{
+            storeFile file('alkarimidealacademynew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        emdadululommodelmadrasha{
+            storeFile file('emdadululommodelmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        markazululoommadrasabayezid{
+            storeFile file('markazululoommadrasabayezid.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        prophecygrammarschoolnew{
+            storeFile file('prophecygrammarschoolnew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        litonprivatecare{
+            storeFile file('litonprivatecare.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        primeprecadetschool{
+            storeFile file('primeprecadetschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        shahinurschool{
+            storeFile file('shahinurschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        shopnobilashunitedschool{
+            storeFile file('shopnobilashunitedschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        arabianinternationalschool{
+            storeFile file('arabianinternationalschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        sunrisemodelschool{
+            storeFile file('sunrisemodelschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        darussuffahacademy{
+            storeFile file('darussuffahacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        //App name : আস সাহাবা শিক্ষা পরিবার
+        assahabaeducationfamily{
+            storeFile file('assahabaeducationfamily.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        scienceworldacademy{
+            storeFile file('scienceworldacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        chormohonadakhilmadrashanew{
+            storeFile file('chormohonadakhilmadrashanew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        assuffamodelmadrasha{
+            storeFile file('assuffamodelmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mahekindergarten{
+            storeFile file('mahekindergarten.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        iqratalimulquranmadrasha{
+            storeFile file('iqratalimulquranmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        wisconew{
+            storeFile file('wisconew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234" // New Publish
+        }
+
+        iqratalimulquranmadrasha{
+            storeFile file('iqratalimulquranmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        furqaniyamadrasahkushtia{
+            storeFile file('furqaniyamadrasahkushtia.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        assanm{
+            storeFile file('assanm.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        mahadushshaikhrashidahmad{
+            storeFile file('mahadushshaikhrashidahmad.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        gazariamazarmadrasanew{
+            storeFile file('gazariamazarmadrasanew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        taqwamadrashaiombdnew{
+            storeFile file('taqwamadrashaiombdnew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        udoyschool {
+            storeFile file('udoyschool.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        balughatmadrasha {
+            storeFile file('balughatmadrasha.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alabrarmadrasakindergarten {
+            storeFile file('alabrarmadrasakindergarten.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        tahfizulmilllat {
+            storeFile file('tahfizulmilllat.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        alabrarnew {
+            storeFile file('alabrarnew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        krishnanagar {
+            storeFile file('krishnanagar.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        dstqnew {
+            storeFile file('dstqnew.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        scienceworld {
+            storeFile file('scienceworld.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        educare {
+            storeFile file('educare.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        parerhat {
+            storeFile file('parerhat.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        afraacademy {
+            storeFile file('afraacademy.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        onlineqaumi {
+            storeFile file('onlineqaumi.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        paragoneducation {
+            storeFile file('paragoneducation.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        upsc{
+            storeFile file('upsc.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        iqraidealmadrasahwmctg{
+            storeFile file('iqraidealmadrasahwmctg.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+        anopamcoaching{
+            storeFile file('anopamcoaching.jks')
+            storePassword "abc-1234"
+            keyAlias "softifybd"
+            keyPassword "abc-1234"
+        }
+    }
+    //endregion
+
+
+    //region productFlavor
+    productFlavors {
+        edufy {
+            versionNameSuffix "-demo3"
+            dimension "default"
+            applicationId "com.softifybd.edufy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.edufy
+            buildConfigField 'String', 'BASE_URL', '"https://demo.edufy.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+        }
+        edufyBeta {
+            dimension "default"
+            applicationId "com.softifybd.edufybeta"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.edufybeta
+            buildConfigField 'String', 'BASE_URL', '"https://app.edufy.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+        }
+        edufyTest {
+            versionNameSuffix "-demo4"
+            dimension "default"
+            applicationId "com.softifybd.edufytest"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.edufytest
+            buildConfigField 'String', 'BASE_URL', '"https://lastshinyroof76.conveyor.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        bmJalal {
+            dimension "default"
+            applicationId "com.softifybd.bmjalal"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.bmjalal
+            buildConfigField 'String', 'BASE_URL', '"https://bmjuahs.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        horipurModelPublic {
+            dimension "default"
+            applicationId "com.softifybd.horipurmodelpublic"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.horipurmodelpublic
+            buildConfigField 'String', 'BASE_URL', '"https://hmps.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        madaripurIdealSchoolAndCollege {
+            dimension "default"
+            applicationId "com.softifybd.madaripuridealschoolandcollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.madaripuridealschoolandcollege
+            buildConfigField 'String', 'BASE_URL', '"https://com.softifybd.madrasatulitisamalarabia"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        madrasatulItisamAlArabia {
+            dimension "default"
+            applicationId "com.softifybd.madrasatulitisamalarabia"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.madrasatulitisamalarabia
+            buildConfigField 'String', 'BASE_URL', '"https://madrasatulitisam.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        salehabadMadrashaComplex {
+            dimension "default"
+            applicationId "com.softifybd.salehabadmadrashacomplex"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.salehabadmadrashacomplex
+            buildConfigField 'String', 'BASE_URL', '"https://salehabad.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markazuTalimisSunnahJamalpur {
+            dimension "default"
+            applicationId "com.softifybd.markazutalimissunnahjamalpur"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markazutalimissunnahjamalpur
+            buildConfigField 'String', 'BASE_URL', '"https://mtsj.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        baroialgyModelSchool{
+            dimension "default"
+            applicationId "com.softifybd.baroialgymodelschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.baroialgymodelschool
+            buildConfigField 'String', 'BASE_URL', '"https://baroialgy.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darunnazatModelMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.darunnazatmodelmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darunnazatmodelmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://darunnazat.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jameatulAzharMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.jameatulazharmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jameatulazharmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://jaisgm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ummeHabibaGirlsMadrasha{
+            dimension "default"
+            applicationId "com.softifybd.ummehabibagirlsmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ummehabibagirlsmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://ummehabiba.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        aylaSharafatiaMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.aylasharafatiamadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.aylasharafatiamadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://ayalasharafatia.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        motherlandSchool{
+            dimension "default"
+            applicationId "com.softifybd.motherlandschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.motherlandschool
+            buildConfigField 'String', 'BASE_URL', '"https://motherland.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        feniIdealDakhilMadrasha{
+            dimension "default"
+            applicationId "com.softifybd.feniidealdakhilmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.feniidealdakhilmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://feniidealdakhil.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        soyaSchoolAndCollege{
+            dimension "default"
+            applicationId "com.softifybd.soyaschoolandcollegenew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.soyaschoolandcollegenew
+            buildConfigField 'String', 'BASE_URL', '"https://soya.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darulUloomIslamiKindergarten{
+            dimension "default"
+            applicationId "com.softifybd.darululoomislamikindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darululoomislamikindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://duikindergarten.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        baytulIlmGirlsMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.baytulilmgirlsmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.baytulilmgirlsmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://baytulilm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        sutarmuraIdealAcademy{
+            dimension "default"
+            applicationId "com.softifybd.sutarmuraidealacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sutarmuraidealacademy
+            buildConfigField 'String', 'BASE_URL', '"https://sutarmuraideal.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ssMultimediaAcademy{
+            dimension "default"
+            applicationId "com.softifybd.ssmultimediaacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ssmultimediaacademy
+            buildConfigField 'String', 'BASE_URL', '"https://ssma.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        sunbeamsKGSchool{
+            dimension "default"
+            applicationId "com.softifybd.sunbeamskgschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sunbeamskgschool
+            buildConfigField 'String', 'BASE_URL', '"https://sunbeamskg.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        hiranurEducation{
+            dimension "default"
+            applicationId "com.softifybd.hiranureducation"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.hiranureducation
+            buildConfigField 'String', 'BASE_URL', '"https://iyilikyolcularie.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        hiyaModelSchoolSirajganj{
+            dimension "default"
+            applicationId "com.softifybd.hiyamodelschoolsirajganj"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.hiyamodelschoolsirajganj
+            buildConfigField 'String', 'BASE_URL', '"https://hiyamodel.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mozammelHaqueSchoolAndCollege{
+            dimension "default"
+            applicationId "com.softifybd.mozammelhaqueschoolandcollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mozammelhaqueschoolandcollege
+            buildConfigField 'String', 'BASE_URL', '"https://protivashishuacademy"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        protivaShishuAcademy{
+            dimension "default"
+            applicationId "com.softifybd.protivashishuacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.protivashishuacademy
+            buildConfigField 'String', 'BASE_URL', '"https://psa.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        qubaMadrasahComplex{
+            dimension "default"
+            applicationId "com.softifybd.qubamadrasahcomplex"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.qubamadrasahcomplex
+            buildConfigField 'String', 'BASE_URL', '"https://quba.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        iqraNooraniKindergarten{
+            dimension "default"
+            applicationId "com.softifybd.iqranooranikindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqranooranikindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://iqra.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ramjanpurIdealTechnicalAcademy{
+            dimension "default"
+            applicationId "com.softifybd.ramjanpuridealtechnicalacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ramjanpuridealtechnicalacademy
+            buildConfigField 'String', 'BASE_URL', '"https://ramjanpurideal.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markajunNurModelMadrasa{
+            dimension "default"
+            applicationId "com.softifybd.markajunnurmodelmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markajunnurmodelmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://markajun.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        newyorkKindergartenSchool{
+            dimension "default"
+            applicationId "com.softifybd.newyorkkindergartenschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.newyorkkindergartenschool
+            buildConfigField 'String', 'BASE_URL', '"https://newyorkkindergarten.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        afilUddinHafiziaNuraniKindergarten{
+            dimension "default"
+            applicationId "com.softifybd.afiluddinhafizianuranikindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.afiluddinhafizianuranikindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://afiluddin.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        khirshinHighSchool{
+            dimension "default"
+            applicationId "com.softifybd.khirshinhighschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.khirshinhighschool
+            buildConfigField 'String', 'BASE_URL', '"https://kskblhighschool.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darulQuranModelMadrasha{
+            dimension "default"
+            applicationId "com.softifybd.darulquranmodelmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darulquranmodelmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://darulquranmodel.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        jamiaRawjatulJannahMadrasha{
+            dimension "default"
+            applicationId "com.softifybd.jamiarawjatuljannahmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jamiarawjatuljannahmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://jrjm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mrmSchoolAndCollege{
+            dimension "default"
+            applicationId "com.softifybd.mrmschoolandcollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mrmschoolandcollege
+            buildConfigField 'String', 'BASE_URL', '"https://mrmsc.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        islambaghIdealCollege{
+            dimension "default"
+            applicationId "com.softifybd.islambaghidealcollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.islambaghidealcollege
+            buildConfigField 'String', 'BASE_URL', '"https://iic.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        talimulIslamIdealMadrasha{
+            dimension "default"
+            applicationId "com.softifybd.talimulislamidealmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.talimulislamidealmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://talimulislam.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alHeraIdealMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.alheraidealmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alheraidealmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://ahim.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        sAliMadrasha{
+            dimension "default"
+            applicationId "com.softifybd.salimadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.salimadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://fkkmgm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        reviewPrivateCenter{
+            dimension "default"
+            applicationId "com.softifybd.reviewprivatecenter"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.reviewprivatecenter
+            buildConfigField 'String', 'BASE_URL', '"https://rpc.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        shahidCadetAcademy{
+            dimension "default"
+            applicationId "com.softifybd.shahidcadetacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.shahidcadetacademy
+            buildConfigField 'String', 'BASE_URL', '"https://sca.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jabaleNoorGirlsMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.jabalenoorgirlsmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jabalenoorgirlsmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://jngm.org"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mohaliGDakhilMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.mohaligdakhilmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mohaligdakhilmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://mgdm.edu.bd"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        iqraCadetMadrashaNabiganjNew{
+            dimension "default"
+            applicationId "com.softifybd.iqracadetmadrashanabiganjnew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqracadetmadrashanabiganjnew
+            buildConfigField 'String', 'BASE_URL', '"https://iicadet.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        khidmatulQuranAdarshaMadrashanew{
+            dimension "default"
+            applicationId "com.softifybd.khidmatulquranadarshamadrashanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.khidmatulquranadarshamadrashanew
+            buildConfigField 'String', 'BASE_URL', '"https://khidmatulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tazkiatulUmmahModelMadrasahNew{
+            dimension "default"
+            applicationId "com.softifybd.tazkiatulummahmodelmadrasahnew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tazkiatulummahmodelmadrasahnew
+            buildConfigField 'String', 'BASE_URL', '"https://tazkiatul.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        sparkResidentialCollege{
+            dimension "default"
+            applicationId "com.softifybd.sparkresidentialcollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sparkresidentialcollege
+            buildConfigField 'String', 'BASE_URL', '"https://spark.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alJamiatulIslamiahRajshahi{
+            dimension "default"
+            applicationId "com.softifybd.aljamiatulislamiahrajshahi"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.aljamiatulislamiahrajshahi
+            buildConfigField 'String', 'BASE_URL', '"https://aljamiatul.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        kapasgolaAdarshaMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.kapasgolaadarshamadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.kapasgolaadarshamadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://kam.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        sunlightEducationalCottage{
+            dimension "default"
+            applicationId "com.softifybd.sunlighteducationalcottage"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sunlighteducationalcottage
+            buildConfigField 'String', 'BASE_URL', '"https://sec.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        greenfieldSchoolNewApp{
+            dimension "default"
+            applicationId "com.softifybd.greenfieldschoolnewapp"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.greenfieldschoolnewapp
+            buildConfigField 'String', 'BASE_URL', '"https://greenfield.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markazulUloomModelMadrasa{
+            dimension "default"
+            applicationId "com.softifybd.markazululoommodelmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markazululoommodelmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://mumm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tlimussunnahmadrasha{
+            dimension "default"
+            applicationId "com.softifybd.tlimussunnahmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tlimussunnahmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://ctm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+
+        }
+        markazutTaqwa{
+            dimension "default"
+            applicationId "com.softifybd.markazuttaqwa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tlimussunnahmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://mtim.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        solimaComputerInstitute{
+            dimension "default"
+            applicationId "com.softifybd.solimacomputerinstitute"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.solimacomputerinstitute
+            buildConfigField 'String', 'BASE_URL', '"https://sctc.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        creativeEducationFamily{
+
+            dimension "default"
+            applicationId "com.softifybd.creativeeducationfamily"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.creativeeducationfamily
+            buildConfigField 'String', 'BASE_URL', '"https://cef.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        makkinagarMadrasa{
+            dimension "default"
+            applicationId "com.softifybd.makkinagarmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.makkinagarmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://jaham.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        ambitionEnglishAcademy{
+            dimension "default"
+            applicationId "com.softifybd.ambitionenglishacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ambitionenglishacademy
+            buildConfigField 'String', 'BASE_URL', '"https://ambitionacademy.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ariarCadetMadrasah{                   //  Ver - 50 (3.8.13)
+            dimension "default"
+            applicationId "com.softifybd.ariarcadetmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ariarcadetmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://ariarcadet.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        birahimpurHighSchool{
+            dimension "default"
+            applicationId "com.softifybd.birahimpurhighschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.birahimpurhighschool
+            buildConfigField 'String', 'BASE_URL', '"https://bhs.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        anandaPathshala{
+            dimension "default"
+            applicationId "com.softifybd.anandapathshala"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.anandapathshala
+            buildConfigField 'String', 'BASE_URL', '"https://anandapathshala.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ummulQura{
+            dimension "default"
+            applicationId "com.softifybd.ummulqura"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ummulqura
+            buildConfigField 'String', 'BASE_URL', '"https://ummulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markajutTamrinAlislamiaCTG{
+            dimension "default"
+            applicationId "com.softifybd.markajuttamrinalislamiactg"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markajuttamrinalislamiactg
+            buildConfigField 'String', 'BASE_URL', '"https://markajuttamrin.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        pioneerModelAcademy{
+            dimension "default"
+            applicationId "com.softifybd.pioneermodelacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.pioneermodelacademy
+            buildConfigField 'String', 'BASE_URL', '"https://pioneermodel.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mtfEdufy{
+            dimension "default"
+            applicationId "com.softifybd.mtfEdufy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mtfedufy
+            buildConfigField 'String', 'BASE_URL', '"https://mtf.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        bagdhaIbtedayeCadetMadrasah{      // new app Date :19/9/2023
+            dimension "default"
+            applicationId "com.softifybd.bagdhaibtedayecadetmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.bagdhaibtedayecadetmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://bicm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alhidayaIslamiCadetAcademy{
+            dimension "default"
+            applicationId "com.softifybd.alhidayaislamicadetacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alhidayaislamicadetacademy
+            buildConfigField 'String', 'BASE_URL', '"https://alhidayaislami.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        idealDakhilMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.idealdakhilmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.idealdakhilmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://idm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ngmNationalGirlsMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.ngmnationalgirlsmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ngmnationalgirlsmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://nationalgirls.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        talimusSunnahhifzMadrasa{
+            dimension "default"
+            applicationId "com.softifybd.talimussunnahhifzmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.talimussunnahhifzmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://talimussunnahhifz.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        zunNoorainIntMadrasah{ //  new app date : 04-9-17
+            dimension "default"
+            applicationId "com.softifybd.zunnoorainintmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.zunnoorainintmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://zunnoorainint.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        morningBirdSchool{
+            dimension "default"
+            applicationId "com.softifybd.morningbirdschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.morningbirdschool
+            buildConfigField 'String', 'BASE_URL', '"https://morningbirdschool.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darulUlumAminiaMadrasah{
+            dimension "default"
+            applicationId "com.softifybd.darululumaminiamadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darululumaminiamadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://darululumaminia.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        balarampurAdarshaCollege{
+            dimension "default"
+            applicationId "com.softifybd.balarampuradarshacollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.balarampuradarshacollege
+            buildConfigField 'String', 'BASE_URL', '"https://bacollege.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        mBPCACADEMY {                           // date :12-10-2023
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mbpcacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mbpcacademy
+            buildConfigField 'String', 'BASE_URL', '"https://mbpca.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        bQWM {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.bqwm"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.bqwm
+            buildConfigField 'String', 'BASE_URL','"https://baitulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        mirpurDarunNazatMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mirpurdarunnazatmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mirpurdarunnazatmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://mirpurdarunnazat.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+
+        raziaKhatunMohilaMadrasah {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.raziakhatunmohilamadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.raziakhatunmohilamadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://rajiakhatunqawmi.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+//        dilsadpurRHHighSchool {
+//            versionNameSuffix "-free"
+//            dimension "default"
+//            applicationId "com.softifybd.dilsadpurrhhighschool"
+//            versionCode project.verCode
+//            versionName project.verName
+//            signingConfig signingConfigs.dilsadpurrhhighschool
+//            buildConfigField 'String', 'BASE_URL', '"https://dilsadpur.biddalay.net"'
+//            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+//            buildConfigField 'String', 'API_KEY', ApiKey
+//            buildConfigField 'double', 'API_VERSION', ApiVersion
+//        }
+
+        nQGMADRASHA {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.nqgmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.nqgmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://nadiyatulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        // Date : 29-10-2023
+
+        tahjibulUmmahMadrassah {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tahjibulummahmadrassah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tahjibulummahmadrassah
+            buildConfigField 'String', 'BASE_URL', '"https://tahjibul.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        iqraAlJamiaMohilaMadrasah {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.iqraaljamiamohilamadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqraaljamiamohilamadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://mhmm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        misbahulQuranBalikaMadrasa {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.misbahulquranbalikamadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.misbahulquranbalikamadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://misbahulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        jamiaElasiaIslamia {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.jamiaelasiaislamia"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jamiaelasiaislamia
+            buildConfigField 'String', 'BASE_URL', '"https://jamiya.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        tahsinulQuranMadrasa {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tahsinulquranmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tahsinulquranmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://tahsinulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //date 5-11-2023
+        ahsanulHadithMadrasah {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.ahsanulhadithmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ahsanulhadithmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://ahsanulhadith.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        holyDreamAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.holydreamacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.holydreamacademy
+            buildConfigField 'String', 'BASE_URL', '"https://holydream.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alHeraDashmina{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alheradashmina"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alheradashmina
+            buildConfigField 'String', 'BASE_URL', '"https://alheraacademy.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+        //Date 16-11-2023
+
+        markazulHikmahNoakhali{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.markazulhikmahnoakhali"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markazulhikmahnoakhali
+            buildConfigField 'String', 'BASE_URL', '"https://markazulhikmahnoakhali.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        holyQuranMadrashaandKindergartenTIM{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.holyquranmadrashaandkindergartentim"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.holyquranmadrashaandkindergartentim
+            buildConfigField 'String', 'BASE_URL', '"https://tahfizulquran.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //Date : 30-11-2023
+
+        smartMerit{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.smartmerit"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.smartmerit
+            buildConfigField 'String', 'BASE_URL', '"https://merit.edu.bd"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        darululoomkujurdiaMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darululoomkujurdiamadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darululoomkujurdiamadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://kujurdia.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jannatulMawaModelMadrasah{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.jannatulmawamodelmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jannatulmawamodelmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://jannatulmawa.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        yardintschoolandCollege{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.yardintschoolandcollege"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.yardintschoolandcollege
+            buildConfigField 'String', 'BASE_URL', '"https://yardint.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jamiaDarusSunnahMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.jamiadarussunnahmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jamiadarussunnahmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://jamiadarussunnah.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        sonaipulidealhifzMadrasah{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.sonaipulidealhifzmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sonaipulidealhifzmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://jamiadarussunnah.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        adarshaAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.adarshaacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.adarshaacademy
+            buildConfigField 'String', 'BASE_URL', '"https://moniraacademi.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //date : 07-12-2023
+
+
+
+
+        dilsadpurRHHighSchoolNewApp {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.dilsadpurrhhighschoolnewapp"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.dilsadpurrhhighschoolnewapp
+            buildConfigField 'String', 'BASE_URL', '"https://dilsadpur.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        //Date 25 -12-2023   up
+
+
+        alorDishariModelMadrasah { //publish
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alordisharimodelmadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alordisharimodelmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://suffaislamic.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+        hazrotMariamAKawmiaMad {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.hazrotmariamakawmiamad"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.hazrotmariamakawmiamad
+            buildConfigField 'String', 'BASE_URL', '"https://hazrotmariamkhbs.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        taqwaInterHifzMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.taqwainterhifzmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.taqwainterhifzmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://taqwainternationalhifz.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //Date  : 5/01/2024
+        habibullahHifzCadetMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.habibullahhifzcadetmadrasha"  //done
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.habibullahhifzcadetmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://hhcm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        blueStarPublicSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.bluestarpublicschool"   //done
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.bluestarpublicschool
+            buildConfigField 'String', 'BASE_URL', '"https://bluestarpublic.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+
+
+        kakraParaModelMadrasah{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.kakraparamodelmadrasah"  //done
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.kakraparamodelmadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://baitulaman.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        alQuranModelMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alquranmodelmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alquranmodelmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://alquranmodel.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+
+        darulUloomNalpatwaMadrasa {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darululoomnalpatwamadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darululoomnalpatwamadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://darululoomnm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+
+        abdurRahmanadarshaAcademy {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.abdurrahmanadarshaacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.abdurrahmanadarshaacademy
+            buildConfigField 'String', 'BASE_URL', '"https://abdurrahmanadarsha.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        nadiyatulQurangirlsmadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.nadiyatulqurangirlsmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.nadiyatulqurangirlsmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://nadiyatulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        challangeKinderGarten{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.challangekindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.challangekindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://challenge.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        eMMAS{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.emmas"    //baki
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.emmas
+            buildConfigField 'String', 'BASE_URL', '"https://englishmedium.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        quranicScienceSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.quranicscienceschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.quranicscienceschool
+            buildConfigField 'String', 'BASE_URL', '"https://quranicscience.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mQMUQM {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mqmuqm"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mqmuqm
+            buildConfigField 'String', 'BASE_URL', '"https://markazulquranmonirul.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        talimulQuranPreCadetMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.talimulquranprecadetmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.talimulquranprecadetmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://talimulquran.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alAmanahAMT {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alamanahamt"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alamanahamt
+            buildConfigField 'String', 'BASE_URL', '"https://alamanahedu22.com"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        //Date :21-01-2024
+
+        uschAsh {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.uschash"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.uschash
+            buildConfigField 'String', 'BASE_URL', '"https://uschash.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        rITS{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.rits"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.rits
+            buildConfigField 'String', 'BASE_URL', '"https://almuminatbmrits.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        badshaMiahDarulQuranMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.badshamiahdarulquranmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.badshamiahdarulquranmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://badshamiadqm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        tYMM {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tymm"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tymm
+            buildConfigField 'String', 'BASE_URL', '"https://tymm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        uQHA {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.uqha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.uqha
+            buildConfigField 'String', 'BASE_URL', '"https://ummulqura.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        anNoorAcademyBenapole {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.annooracademybenapole"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.annooracademybenapole
+            buildConfigField 'String', 'BASE_URL', '"https://annooracademy.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        meritoriousIdealSchool {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.meritoriousidealschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.meritoriousidealschool
+            buildConfigField 'String', 'BASE_URL', '"https://meritoriousideal.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        madinatulUlumMadrasaDhaka {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.madinatululummadrasadhaka"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.madinatululummadrasadhaka
+            buildConfigField 'String', 'BASE_URL', '"https://madinatululum.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        fCAISA {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.fcaisa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.fcaisa
+            buildConfigField 'String', 'BASE_URL', '"https://fcaislamicscience.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        darulUloomGirlsMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darululoomgirlsmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darululoomgirlsmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://raianacademy.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        atTaqwaEducationalAcademy {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.attaqwaeducationalacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.attaqwaeducationalacademy
+            buildConfigField 'String', 'BASE_URL', '"https://attaqwa.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        saturiaUnitedModelSchool {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.saturiaunitedmodelschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.saturiaunitedmodelschool
+            buildConfigField 'String', 'BASE_URL', '"https://sums.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        raianAcademyComilla {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.raianacademycomilla"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.raianacademycomilla
+            buildConfigField 'String', 'BASE_URL', '"https://raianacademy.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        titagramMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.titagrammadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.titagrammadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://jsfu.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        // password was updated-abc-1234 (last in a space)
+        phulbariCadetAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.phulbaricadetacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.phulbaricadetacademy
+            buildConfigField 'String', 'BASE_URL', '"https://phulbaricadet.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //al-manarat password was updated-abc-1234 (last in a space)
+        alManaratModelMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.almanaratmodelmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.almanaratmodelmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://almmm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //password was updated-abc-1234 (last in a space)
+        faizanIslamicSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.faizanislamicschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.faizanislamicschool
+            buildConfigField 'String', 'BASE_URL', '"https://faizanislamic.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //password: abc-1234 ( include space in last after 4)
+        pagarBaitulUloomMadrasah{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.pagarbaitululoommadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.pagarbaitululoommadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://pagarbaitululm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //password: abc-1234 ( include space in last after 4)
+        littleAngelIntSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.littleangelintschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.littleangelintschool
+            buildConfigField 'String', 'BASE_URL', '"https://littleangelint.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //password: abc-1234 ( include space in the last)
+        theDux{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.thedux"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.thedux
+            buildConfigField 'String', 'BASE_URL', '"https://peace-isc.org"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        kodalpurIdealSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.kodalpuridealschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.kodalpuridealschool
+            buildConfigField 'String', 'BASE_URL', '"https://kodalpurideal.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //password: abc-1234 ( include space in the last)
+        anNurKindergarten{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.annurkindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.annurkindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://annurkahq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tahfizulQuranKarimiyaMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tahfizulqurankarimiyamadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tahfizulqurankarimiyamadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://tqkm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mohammadiaIslamiaMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mohammadiaislamiamadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mohammadiaislamiamadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://mohammadiaislamia.com"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        ramgonjIslamicCulturalAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.ramgonjislamicculturalacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ramgonjislamicculturalacademy
+            buildConfigField 'String', 'BASE_URL', '"https://ramgonjica.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        mohammadiaIslamiaMadrashaNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mohammadiaislamiamadrashanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mohammadiaislamiamadrashanew
+            buildConfigField 'String', 'BASE_URL', '"https://mohammadiaislamia.com"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        tahfizulQuranKarimiyaMadrashaNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tahfizulqurankarimiyamadrashanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tahfizulqurankarimiyamadrashanew
+            buildConfigField 'String', 'BASE_URL', '"https://tqkm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jagoroniAdorsoBiddaloy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.jagoroniadorsobiddaloy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jagoroniadorsobiddaloy
+            buildConfigField 'String', 'BASE_URL', '"https://jagoroniadorso.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        darusSunnahNuraniMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darussunnahnuranimadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darussunnahnuranimadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://darussunnahnurani.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alHaramainMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alharamainmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alharamainmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://alharamain.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        idealNonGovtPrimarySchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.idealnongovtprimaryschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.idealnongovtprimaryschool
+            buildConfigField 'String', 'BASE_URL', '"https://idealnongov.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        madrasatuTarbiyatilMadinakindergarten{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.madrasatutarbiyatilmadinakindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.madrasatutarbiyatilmadinakindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://tarbiyatilmadina.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tahfizulQuranKarimiyaMadrashaNewOne{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tahfizulqurankarimiyamadrashanewone"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tahfizulqurankarimiyamadrashanewone
+            buildConfigField 'String', 'BASE_URL', '"https://tqkm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        abuHurairaRaAdarshAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.abuhurairaraadarshacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.abuhurairaraadarshacademy
+            buildConfigField 'String', 'BASE_URL', '"https://abuhuraira.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darulAzharNoakhali{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darulazharnoakhali"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darulazharnoakhali
+            buildConfigField 'String', 'BASE_URL', '"https://darulazharmodel.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        idealSchoolMohadevpur{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.idealschoolmohadevpur"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.idealschoolmohadevpur
+            buildConfigField 'String', 'BASE_URL', '"https://idealnongov.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        bmLabSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.bmlabschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.bmlabschool
+            buildConfigField 'String', 'BASE_URL', '"https://bmls.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tQuranKarimiaMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tqurankarimiamadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tqurankarimiamadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://tqkm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ideaModelPublicSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.ideamodelpublicschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ideamodelpublicschool
+            buildConfigField 'String', 'BASE_URL', '"https://imps2007.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markazusSunnahAssalafi{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.markazussunnahassalafi"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markazussunnahassalafi
+            buildConfigField 'String', 'BASE_URL', '"https://mss.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        studentsStudyPoint{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.studentsstudypoint"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.studentsstudypoint
+            buildConfigField 'String', 'BASE_URL', '"https://ssp.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darusSalamHussainiaMadrasah{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darussalamhussainiamadrasah"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darussalamhussainiamadrasah
+            buildConfigField 'String', 'BASE_URL', '"https://dsh.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        halimaKhatunIslamicAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.halimakhatunislamicacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.halimakhatunislamicacademy
+            buildConfigField 'String', 'BASE_URL', '"https://hkia.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tQuranKarimiaMadrasaNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tqurankarimiamadrasanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tqurankarimiamadrasanew
+            buildConfigField 'String', 'BASE_URL', '"https://tqkm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        ranigonjFatimatujJahraR{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.ranigonjfatimatujjahrar"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.ranigonjfatimatujjahrar
+            buildConfigField 'String', 'BASE_URL', '"https://ranigonjfatimatujjahra.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        sabilurRashadMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.sabilurrashadmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sabilurrashadmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://srm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jamiaManarutTawheedNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.jamiamanaruttawheednew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jamiamanaruttawheednew
+            buildConfigField 'String', 'BASE_URL', '"https://manaruttawheed.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markazutTaqwaMA{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.markazuttaqwama"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markazuttaqwama
+            buildConfigField 'String', 'BASE_URL', '"https://mtsu.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        rajucadetschoolTangail{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.rajucadetschooltangail"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.rajucadetschooltangail
+            buildConfigField 'String', 'BASE_URL', '"https://rajucadet.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        dAMM {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.damm"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.damm
+            buildConfigField 'String', 'BASE_URL', '"https://damm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        jABALENOOR {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.jabalenoor"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.jabalenoor
+            buildConfigField 'String', 'BASE_URL', '"https://jabalenoor.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        raianAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.raianacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.raianacademy
+            buildConfigField 'String', 'BASE_URL', '"https://raianacademy.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        nisuraSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.nisuraschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.nisuraschool
+            buildConfigField 'String', 'BASE_URL', '"https://nisuratechnical.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+
+        darulQuranOnlineAcademyNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darulquranonlineacademynew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darulquranonlineacademynew
+            buildConfigField 'String', 'BASE_URL', '"https://darqam.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        fjrMohilaQawmiMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.fjrmohilaqawmimadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.fjrmohilaqawmimadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://ftjrmq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        madrasatulMadinaNJohurNewApp{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.madrasatulmadinanjohurnewapp"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.madrasatulmadinanjohurnewapp
+            buildConfigField 'String', 'BASE_URL', '"https://madrasatulmadinanj.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        //FJR Mohila Qawmi Madrasa
+        fjrMohilaMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.fjrmohilamadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.fjrmohilamadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://ftjrmq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        darutTaqwaMadrasahApp{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.daruttaqwamadrasahapp"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.daruttaqwamadrasahapp
+            buildConfigField 'String', 'BASE_URL', '"https://daruttaqwa.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tanjimulHikmahModelAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tanjimulhikmahmodelacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tanjimulhikmahmodelacademy
+            buildConfigField 'String', 'BASE_URL', '"https://thrma.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        bchapitolaMmrdMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.bchapitolammrdmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.bchapitolammrdmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://bchapitolammrd.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        madrasatuMadinahaNewApp{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.madrasatumadinahanewapp"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.madrasatumadinahanewapp
+            buildConfigField 'String', 'BASE_URL', '"https://madrasatulmadinah.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        hazratShahjalalRhMadrashaNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.hazratShahjalalRhMadrashanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.hazratShahjalalRhMadrashanew
+            buildConfigField 'String', 'BASE_URL', '"https://hsrcm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alArafahIslamicSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alarafahislamicschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alarafahislamicschool
+            buildConfigField 'String', 'BASE_URL', '"https://alarafah.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        iqraModelMadrasa{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.iqramodelmadrasa"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqramodelmadrasa
+            buildConfigField 'String', 'BASE_URL', '"https://iqramodelmadrasah.com"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mohanpurMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mohanpurmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mohanpurmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://mahnm.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        nowdulyidealKinderGarten{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.nowdulyidealKindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.nowdulyidealKindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://nowdulyideal.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alKarimIdealAcademyNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alkarimidealacademynew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alkarimidealacademynew
+            buildConfigField 'String', 'BASE_URL', '"https://akia.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        emdadulUlomModelMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.emdadululommodelmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.emdadululommodelmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://bfci.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        markazulUloomMadrasaBayezid{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.markazululoommadrasabayezid"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.markazululoommadrasabayezid
+            buildConfigField 'String', 'BASE_URL', '"https://mumh.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        prophecyGrammarSchoolNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.prophecygrammarschoolnew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.prophecygrammarschoolnew
+            buildConfigField 'String', 'BASE_URL', '"https://pgs.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        litonPrivateCare{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.litonprivatecare"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.litonprivatecare
+            buildConfigField 'String', 'BASE_URL', '"https://litonscare.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        primePreCadetSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.primeprecadetschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.primeprecadetschool
+            buildConfigField 'String', 'BASE_URL', '"https://primepcsk.com"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        shahinurSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.shahinurschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.shahinurschool
+            buildConfigField 'String', 'BASE_URL', '"https://shahinur.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        shopnobilashUnitedSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.shopnobilashunitedschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.shopnobilashunitedschool
+            buildConfigField 'String', 'BASE_URL', '"https://sus.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        arabianInternationalSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.arabianinternationalschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.arabianinternationalschool
+            buildConfigField 'String', 'BASE_URL', '"https://arabianint.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        sunRiseModelSchool{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.sunrisemodelschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.sunrisemodelschool
+            buildConfigField 'String', 'BASE_URL', '"https://srms.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        darusSuffahAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.darussuffahacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.darussuffahacademy
+            buildConfigField 'String', 'BASE_URL', '"https://www.dsabd.com"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+        //App name : আস সাহাবা শিক্ষা পরিবার
+        asSahabaEducationFamily{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.assahabaeducationfamily"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.assahabaeducationfamily
+            buildConfigField 'String', 'BASE_URL', '"https://assahaba.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        scienceWorldAcademy{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.scienceworldacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.scienceworldacademy
+            buildConfigField 'String', 'BASE_URL', '"https://swa.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        chormohonaDakhilMadrashaNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.chormohonadakhilmadrashanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.chormohonadakhilmadrashanew
+            buildConfigField 'String', 'BASE_URL', '"https://cmid.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        asSuffaModelMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.assuffamodelmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.assuffamodelmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://assuffahmodel.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        //key password - abc-1234
+        maheKinderGarten{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mahekindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mahekindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://mahe.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        iqraTalimulQuranMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.iqratalimulquranmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqratalimulquranmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://mahe.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        wISCONew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.wisconew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.wisconew
+            buildConfigField 'String', 'BASE_URL', '"https://wisdomisc.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        iqraTalimulQuranMadrasha{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.iqratalimulquranmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqratalimulquranmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://itq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        furqaniyaMadrasahKushtia{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.furqaniyamadrasahkushtia"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.furqaniyamadrasahkushtia
+            buildConfigField 'String', 'BASE_URL', '"https://cfh.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        aSSANM{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.assanm"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.assanm
+            buildConfigField 'String', 'BASE_URL', '"https://asan.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        mahadushShaikhRashidAhmad{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.mahadushshaikhrashidahmad"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.mahadushshaikhrashidahmad
+            buildConfigField 'String', 'BASE_URL', '"https://msra.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        gazariaMazarMadrasaNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.gazariamazarmadrasanew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.gazariamazarmadrasanew
+            buildConfigField 'String', 'BASE_URL', '"https://gozariamazar.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        taqwaMadrashaIOMBDNew{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.taqwamadrashaiombdnew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.taqwamadrashaiombdnew
+            buildConfigField 'String', 'BASE_URL', '"https://taqwaiombd.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        udoySchool {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.udoyschool"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.udoyschool
+            buildConfigField 'String', 'BASE_URL', '"https://uims.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        balughatMadrasha {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.balughatmadrasha"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.balughatmadrasha
+            buildConfigField 'String', 'BASE_URL', '"https://balughat.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alabrarMadrasakindergarten {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alabrarmadrasakindergarten"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alabrarmadrasakindergarten
+            buildConfigField 'String', 'BASE_URL', '"https://alabrar.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        tahfizulMilllat {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.tahfizulmilllat"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.tahfizulmilllat
+            buildConfigField 'String', 'BASE_URL', '"https://tahfizulmillat.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        alAbrarNew {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.alabrarnew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.alabrarnew
+            buildConfigField 'String', 'BASE_URL', '"https://alabrar.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        krishnanagar {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.krishnanagar"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.krishnanagar
+            buildConfigField 'String', 'BASE_URL', '"https://krishnanagar.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        dstqNew {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.dstqnew"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.dstqnew
+            buildConfigField 'String', 'BASE_URL', '"https://dstq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        scienceWorld {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.scienceworld"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.scienceworld
+            buildConfigField 'String', 'BASE_URL', '"https://swa.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        eduCare {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.educare"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.educare
+            buildConfigField 'String', 'BASE_URL', '"https://educareismb.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        parerhat {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.parerhat"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.parerhat
+            buildConfigField 'String', 'BASE_URL', '"https://pmps.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        afraAcademy {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.afraacademy"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.afraacademy
+            buildConfigField 'String', 'BASE_URL', '"https://afra.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        onlineQaumi {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.onlineqaumi"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.onlineqaumi
+            buildConfigField 'String', 'BASE_URL', '"https://mnoq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        paragonEducation {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.paragoneducation"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.paragoneducation
+            buildConfigField 'String', 'BASE_URL', '"https://pmscedu.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        uPSC {
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.upsc"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.upsc
+            buildConfigField 'String', 'BASE_URL', '"https://upsc.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        iqraIdealMadrasahWMctg{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.iqraidealmadrasahwmctg"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.iqraidealmadrasahwmctg
+            buildConfigField 'String', 'BASE_URL', '"https://iqrainhq.madrasha.cloud"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+        anopamCoaching{
+            versionNameSuffix "-free"
+            dimension "default"
+            applicationId "com.softifybd.anopamcoaching"
+            versionCode project.verCode
+            versionName project.verName
+            signingConfig signingConfigs.anopamcoaching
+            buildConfigField 'String', 'BASE_URL', '"https://anopam.biddalay.net"'
+            buildConfigField 'String', 'BASE_URL_EXTRA', BaseUrlExtra
+            buildConfigField 'String', 'API_KEY', ApiKey
+            buildConfigField 'double', 'API_VERSION', ApiVersion
+        }
+
+    }
+    //endregion
+}
