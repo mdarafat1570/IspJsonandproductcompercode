@@ -1,0 +1,6188 @@
+
+#===========================================
+desc "deploy each flavor"
+lane :edufy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "edufy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.edufy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :edufybeta do
+
+    gradle(
+            task: 'bundle',
+            flavor: "edufybeta",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.edufybeta',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :edufytest do
+
+    gradle(
+            task: 'bundle',
+            flavor: "edufytest",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.edufytest',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :bmjalal do
+
+    gradle(
+            task: 'bundle',
+            flavor: "bmjalal",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.bmjalal',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :horipurmodelpublic do
+
+    gradle(
+            task: 'bundle',
+            flavor: "horipurmodelpublic",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.horipurmodelpublic',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :madaripuridealschoolandcollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "madaripuridealschoolandcollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.madaripuridealschoolandcollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :madrasatulitisamalarabia do
+
+    gradle(
+            task: 'bundle',
+            flavor: "madrasatulitisamalarabia",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.madrasatulitisamalarabia',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :salehabadmadrashacomplex do
+
+    gradle(
+            task: 'bundle',
+            flavor: "salehabadmadrashacomplex",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.salehabadmadrashacomplex',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazutalimissunnahjamalpur do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazutalimissunnahjamalpur",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazutalimissunnahjamalpur',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :baroialgymodelschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "baroialgymodelschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.baroialgymodelschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darunnazatmodelmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darunnazatmodelmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darunnazatmodelmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jameatulazharmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jameatulazharmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jameatulazharmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ummehabibagirlsmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ummehabibagirlsmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ummehabibagirlsmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :aylasharafatiamadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "aylasharafatiamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.aylasharafatiamadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :motherlandschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "motherlandschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.motherlandschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :feniidealdakhilmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "feniidealdakhilmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.feniidealdakhilmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :soyaschoolandcollegenew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "soyaschoolandcollegenew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.soyaschoolandcollegenew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darululoomislamikindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darululoomislamikindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darululoomislamikindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :baytulilmgirlsmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "baytulilmgirlsmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.baytulilmgirlsmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sutarmuraidealacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sutarmuraidealacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sutarmuraidealacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ssmultimediaacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ssmultimediaacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ssmultimediaacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sunbeamskgschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sunbeamskgschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sunbeamskgschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :hiranureducation do
+
+    gradle(
+            task: 'bundle',
+            flavor: "hiranureducation",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.hiranureducation',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :hiyamodelschoolsirajganj do
+
+    gradle(
+            task: 'bundle',
+            flavor: "hiyamodelschoolsirajganj",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.hiyamodelschoolsirajganj',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mozammelhaqueschoolandcollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mozammelhaqueschoolandcollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mozammelhaqueschoolandcollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :protivashishuacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "protivashishuacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.protivashishuacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :qubamadrasahcomplex do
+
+    gradle(
+            task: 'bundle',
+            flavor: "qubamadrasahcomplex",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.qubamadrasahcomplex',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqranooranikindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqranooranikindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqranooranikindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ramjanpuridealtechnicalacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ramjanpuridealtechnicalacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ramjanpuridealtechnicalacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markajunnurmodelmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markajunnurmodelmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markajunnurmodelmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :newyorkkindergartenschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "newyorkkindergartenschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.newyorkkindergartenschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :afiluddinhafizianuranikindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "afiluddinhafizianuranikindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.afiluddinhafizianuranikindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :khirshinhighschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "khirshinhighschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.khirshinhighschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darulquranmodelmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darulquranmodelmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darulquranmodelmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jamiarawjatuljannahmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jamiarawjatuljannahmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jamiarawjatuljannahmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mrmschoolandcollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mrmschoolandcollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mrmschoolandcollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :islambaghidealcollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "islambaghidealcollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.islambaghidealcollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :talimulislamidealmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "talimulislamidealmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.talimulislamidealmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alheraidealmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alheraidealmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alheraidealmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :salimadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "salimadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.salimadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :reviewprivatecenter do
+
+    gradle(
+            task: 'bundle',
+            flavor: "reviewprivatecenter",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.reviewprivatecenter',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :shahidcadetacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "shahidcadetacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.shahidcadetacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jabalenoorgirlsmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jabalenoorgirlsmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jabalenoorgirlsmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mohaligdakhilmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mohaligdakhilmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mohaligdakhilmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqracadetmadrashanabiganjnew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqracadetmadrashanabiganjnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqracadetmadrashanabiganjnew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :khidmatulquranadarshamadrashanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "khidmatulquranadarshamadrashanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.khidmatulquranadarshamadrashanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tazkiatulummahmodelmadrasahnew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tazkiatulummahmodelmadrasahnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tazkiatulummahmodelmadrasahnew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sparkresidentialcollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sparkresidentialcollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sparkresidentialcollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :aljamiatulislamiahrajshahi do
+
+    gradle(
+            task: 'bundle',
+            flavor: "aljamiatulislamiahrajshahi",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.aljamiatulislamiahrajshahi',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :kapasgolaadarshamadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "kapasgolaadarshamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.kapasgolaadarshamadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sunlighteducationalcottage do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sunlighteducationalcottage",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sunlighteducationalcottage',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :greenfieldschoolnewapp do
+
+    gradle(
+            task: 'bundle',
+            flavor: "greenfieldschoolnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.greenfieldschoolnewapp',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazululoommodelmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazululoommodelmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazululoommodelmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tlimussunnahmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tlimussunnahmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tlimussunnahmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazuttaqwa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazuttaqwa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazuttaqwa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :solimacomputerinstitute do
+
+    gradle(
+            task: 'bundle',
+            flavor: "solimacomputerinstitute",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.solimacomputerinstitute',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :creativeeducationfamily do
+
+    gradle(
+            task: 'bundle',
+            flavor: "creativeeducationfamily",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.creativeeducationfamily',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :makkinagarmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "makkinagarmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.makkinagarmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ambitionenglishacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ambitionenglishacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ambitionenglishacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ariarcadetmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ariarcadetmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ariarcadetmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :birahimpurhighschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "birahimpurhighschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.birahimpurhighschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :anandapathshala do
+
+    gradle(
+            task: 'bundle',
+            flavor: "anandapathshala",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.anandapathshala',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ummulqura do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ummulqura",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ummulqura',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markajuttamrinalislamiactg do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markajuttamrinalislamiactg",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markajuttamrinalislamiactg',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :pioneermodelacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "pioneermodelacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.pioneermodelacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mtfedufy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mtfedufy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mtfEdufy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :bagdhaibtedayecadetmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "bagdhaibtedayecadetmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.bagdhaibtedayecadetmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alhidayaislamicadetacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alhidayaislamicadetacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alhidayaislamicadetacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :idealdakhilmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "idealdakhilmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.idealdakhilmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ngmnationalgirlsmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ngmnationalgirlsmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ngmnationalgirlsmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :talimussunnahhifzmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "talimussunnahhifzmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.talimussunnahhifzmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :zunnoorainintmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "zunnoorainintmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.zunnoorainintmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :morningbirdschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "morningbirdschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.morningbirdschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darululumaminiamadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darululumaminiamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darululumaminiamadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :balarampuradarshacollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "balarampuradarshacollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.balarampuradarshacollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mbpcacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mbpcacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mbpcacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :bqwm do
+
+    gradle(
+            task: 'bundle',
+            flavor: "bqwm",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.bqwm',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mirpurdarunnazatmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mirpurdarunnazatmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mirpurdarunnazatmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :raziakhatunmohilamadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "raziakhatunmohilamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.raziakhatunmohilamadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :dilsadpurrhhighschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "dilsadpurrhhighschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.dilsadpurrhhighschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :nqgmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "nqgmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.nqgmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tahjibulummahmadrassah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tahjibulummahmadrassah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tahjibulummahmadrassah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqraaljamiamohilamadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqraaljamiamohilamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqraaljamiamohilamadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :misbahulquranbalikamadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "misbahulquranbalikamadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.misbahulquranbalikamadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jamiaelasiaislamia do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jamiaelasiaislamia",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jamiaelasiaislamia',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tahsinulquranmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tahsinulquranmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tahsinulquranmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ahsanulhadithmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ahsanulhadithmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ahsanulhadithmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :holydreamacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "holydreamacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.holydreamacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alheradashmina do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alheradashmina",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alheradashmina',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazulhikmahnoakhali do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazulhikmahnoakhali",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazulhikmahnoakhali',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :holyquranmadrashaandkindergartentim do
+
+    gradle(
+            task: 'bundle',
+            flavor: "holyquranmadrashaandkindergartentim",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.holyquranmadrashaandkindergartentim',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :smartmerit do
+
+    gradle(
+            task: 'bundle',
+            flavor: "smartmerit",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.smartmerit',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darululoomkujurdiamadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darululoomkujurdiamadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darululoomkujurdiamadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jannatulmawamodelmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jannatulmawamodelmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jannatulmawamodelmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :yardintschoolandcollege do
+
+    gradle(
+            task: 'bundle',
+            flavor: "yardintschoolandcollege",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.yardintschoolandcollege',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jamiadarussunnahmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jamiadarussunnahmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jamiadarussunnahmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sonaipulidealhifzmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sonaipulidealhifzmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sonaipulidealhifzmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :adarshaacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "adarshaacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.adarshaacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :dilsadpurrhhighschoolnewapp do
+
+    gradle(
+            task: 'bundle',
+            flavor: "dilsadpurrhhighschoolnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.dilsadpurrhhighschoolnewapp',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alordisharimodelmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alordisharimodelmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alordisharimodelmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :hazrotmariamakawmiamad do
+
+    gradle(
+            task: 'bundle',
+            flavor: "hazrotmariamakawmiamad",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.hazrotmariamakawmiamad',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :taqwainterhifzmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "taqwainterhifzmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.taqwainterhifzmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :habibullahhifzcadetmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "habibullahhifzcadetmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.habibullahhifzcadetmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :bluestarpublicschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "bluestarpublicschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.bluestarpublicschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :kakraparamodelmadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "kakraparamodelmadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.kakraparamodelmadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alquranmodelmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alquranmodelmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alquranmodelmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darululoomnalpatwamadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darululoomnalpatwamadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darululoomnalpatwamadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :abdurrahmanadarshaacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "abdurrahmanadarshaacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.abdurrahmanadarshaacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :nadiyatulqurangirlsmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "nadiyatulqurangirlsmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.nadiyatulqurangirlsmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :challangekindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "challangekindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.challangekindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :emmas do
+
+    gradle(
+            task: 'bundle',
+            flavor: "emmas",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.emmas',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :quranicscienceschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "quranicscienceschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.quranicscienceschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mqmuqm do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mqmuqm",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mqmuqm',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :talimulquranprecadetmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "talimulquranprecadetmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.talimulquranprecadetmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alamanahamt do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alamanahamt",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alamanahamt',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :uschash do
+
+    gradle(
+            task: 'bundle',
+            flavor: "uschash",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.uschash',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :rits do
+
+    gradle(
+            task: 'bundle',
+            flavor: "rits",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.rits',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :badshamiahdarulquranmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "badshamiahdarulquranmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.badshamiahdarulquranmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tymm do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tymm",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tymm',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :uqha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "uqha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.uqha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :annooracademybenapole do
+
+    gradle(
+            task: 'bundle',
+            flavor: "annooracademybenapole",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.annooracademybenapole',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :meritoriousidealschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "meritoriousidealschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.meritoriousidealschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :madinatululummadrasadhaka do
+
+    gradle(
+            task: 'bundle',
+            flavor: "madinatululummadrasadhaka",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.madinatululummadrasadhaka',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :fcaisa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "fcaisa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.fcaisa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darululoomgirlsmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darululoomgirlsmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darululoomgirlsmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :attaqwaeducationalacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "attaqwaeducationalacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.attaqwaeducationalacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :saturiaunitedmodelschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "saturiaunitedmodelschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.saturiaunitedmodelschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :raianacademycomilla do
+
+    gradle(
+            task: 'bundle',
+            flavor: "raianacademycomilla",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.raianacademycomilla',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :titagrammadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "titagrammadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.titagrammadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :phulbaricadetacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "phulbaricadetacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.phulbaricadetacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :almanaratmodelmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "almanaratmodelmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.almanaratmodelmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :faizanislamicschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "faizanislamicschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.faizanislamicschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :pagarbaitululoommadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "pagarbaitululoommadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.pagarbaitululoommadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :littleangelintschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "littleangelintschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.littleangelintschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :thedux do
+
+    gradle(
+            task: 'bundle',
+            flavor: "thedux",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.thedux',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :kodalpuridealschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "kodalpuridealschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.kodalpuridealschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :annurkindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "annurkindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.annurkindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tahfizulqurankarimiyamadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tahfizulqurankarimiyamadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tahfizulqurankarimiyamadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mohammadiaislamiamadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mohammadiaislamiamadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mohammadiaislamiamadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ramgonjislamicculturalacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ramgonjislamicculturalacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ramgonjislamicculturalacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mohammadiaislamiamadrashanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mohammadiaislamiamadrashanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mohammadiaislamiamadrashanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tahfizulqurankarimiyamadrashanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tahfizulqurankarimiyamadrashanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tahfizulqurankarimiyamadrashanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jagoroniadorsobiddaloy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jagoroniadorsobiddaloy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jagoroniadorsobiddaloy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darussunnahnuranimadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darussunnahnuranimadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darussunnahnuranimadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alharamainmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alharamainmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alharamainmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :idealnongovtprimaryschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "idealnongovtprimaryschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.idealnongovtprimaryschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :madrasatutarbiyatilmadinakindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "madrasatutarbiyatilmadinakindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.madrasatutarbiyatilmadinakindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tahfizulqurankarimiyamadrashanewone do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tahfizulqurankarimiyamadrashanewone",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tahfizulqurankarimiyamadrashanewone',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :abuhurairaraadarshacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "abuhurairaraadarshacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.abuhurairaraadarshacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darulazharnoakhali do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darulazharnoakhali",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darulazharnoakhali',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :idealschoolmohadevpur do
+
+    gradle(
+            task: 'bundle',
+            flavor: "idealschoolmohadevpur",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.idealschoolmohadevpur',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :bmlabschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "bmlabschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.bmlabschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tqurankarimiamadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tqurankarimiamadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tqurankarimiamadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ideamodelpublicschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ideamodelpublicschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ideamodelpublicschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazussunnahassalafi do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazussunnahassalafi",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazussunnahassalafi',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :studentsstudypoint do
+
+    gradle(
+            task: 'bundle',
+            flavor: "studentsstudypoint",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.studentsstudypoint',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darussalamhussainiamadrasah do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darussalamhussainiamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darussalamhussainiamadrasah',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :halimakhatunislamicacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "halimakhatunislamicacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.halimakhatunislamicacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tqurankarimiamadrasanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tqurankarimiamadrasanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tqurankarimiamadrasanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :ranigonjfatimatujjahrar do
+
+    gradle(
+            task: 'bundle',
+            flavor: "ranigonjfatimatujjahrar",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.ranigonjfatimatujjahrar',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sabilurrashadmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sabilurrashadmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sabilurrashadmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jamiamanaruttawheednew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jamiamanaruttawheednew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jamiamanaruttawheednew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazuttaqwama do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazuttaqwama",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazuttaqwama',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :rajucadetschooltangail do
+
+    gradle(
+            task: 'bundle',
+            flavor: "rajucadetschooltangail",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.rajucadetschooltangail',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :damm do
+
+    gradle(
+            task: 'bundle',
+            flavor: "damm",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.damm',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :jabalenoor do
+
+    gradle(
+            task: 'bundle',
+            flavor: "jabalenoor",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.jabalenoor',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :raianacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "raianacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.raianacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :nisuraschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "nisuraschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.nisuraschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darulquranonlineacademynew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darulquranonlineacademynew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darulquranonlineacademynew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :fjrmohilaqawmimadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "fjrmohilaqawmimadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.fjrmohilaqawmimadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :madrasatulmadinanjohurnewapp do
+
+    gradle(
+            task: 'bundle',
+            flavor: "madrasatulmadinanjohurnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.madrasatulmadinanjohurnewapp',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :fjrmohilamadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "fjrmohilamadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.fjrmohilamadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :daruttaqwamadrasahapp do
+
+    gradle(
+            task: 'bundle',
+            flavor: "daruttaqwamadrasah",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.daruttaqwamadrasahapp',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tanjimulhikmahmodelacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tanjimulhikmahmodelacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tanjimulhikmahmodelacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :bchapitolammrdmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "bchapitolammrdmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.bchapitolammrdmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :madrasatumadinahanewapp do
+
+    gradle(
+            task: 'bundle',
+            flavor: "madrasatumadinahanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.madrasatumadinahanewapp',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :hazratshahjalalrhmadrashanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "hazratshahjalalrhmadrashanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.hazratShahjalalRhMadrashanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alarafahislamicschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alarafahislamicschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alarafahislamicschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqramodelmadrasa do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqramodelmadrasa",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqramodelmadrasa',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mohanpurmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mohanpurmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mohanpurmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :nowdulyidealkindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "nowdulyidealkindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.nowdulyidealKindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alkarimidealacademynew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alkarimidealacademynew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alkarimidealacademynew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :emdadululommodelmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "emdadululommodelmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.emdadululommodelmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :markazululoommadrasabayezid do
+
+    gradle(
+            task: 'bundle',
+            flavor: "markazululoommadrasabayezid",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.markazululoommadrasabayezid',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :prophecygrammarschoolnew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "prophecygrammarschoolnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.prophecygrammarschoolnew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :litonprivatecare do
+
+    gradle(
+            task: 'bundle',
+            flavor: "litonprivatecare",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.litonprivatecare',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :primeprecadetschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "primeprecadetschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.primeprecadetschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :shahinurschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "shahinurschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.shahinurschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :shopnobilashunitedschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "shopnobilashunitedschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.shopnobilashunitedschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :arabianinternationalschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "arabianinternationalschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.arabianinternationalschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :sunrisemodelschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "sunrisemodelschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.sunrisemodelschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :darussuffahacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "darussuffahacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.darussuffahacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :assahabaeducationfamily do
+
+    gradle(
+            task: 'bundle',
+            flavor: "assahabaeducationfamily",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.assahabaeducationfamily',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :scienceworldacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "scienceworldacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.scienceworldacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :chormohonadakhilmadrashanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "chormohonadakhilmadrashanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.chormohonadakhilmadrashanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :assuffamodelmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "assuffamodelmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.assuffamodelmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mahekindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mahekindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mahekindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqratalimulquranmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqratalimulquranmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqratalimulquranmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :wisconew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "wisconew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.wisconew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqratalimulquranmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqratalimulquranmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqratalimulquranmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :furqaniyamadrasahkushtia do
+
+    gradle(
+            task: 'bundle',
+            flavor: "furqaniyamadrasahkushtia",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.furqaniyamadrasahkushtia',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :assanm do
+
+    gradle(
+            task: 'bundle',
+            flavor: "assanm",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.assanm',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :mahadushshaikhrashidahmad do
+
+    gradle(
+            task: 'bundle',
+            flavor: "mahadushshaikhrashidahmad",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.mahadushshaikhrashidahmad',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :gazariamazarmadrasanew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "gazariamazarmadrasanew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.gazariamazarmadrasanew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :taqwamadrashaiombdnew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "taqwamadrashaiombdnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.taqwamadrashaiombdnew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :udoyschool do
+
+    gradle(
+            task: 'bundle',
+            flavor: "udoyschool",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.udoyschool',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :balughatmadrasha do
+
+    gradle(
+            task: 'bundle',
+            flavor: "balughatmadrasha",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.balughatmadrasha',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alabrarmadrasakindergarten do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alabrarmadrasakindergarten",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alabrarmadrasakindergarten',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :tahfizulmilllat do
+
+    gradle(
+            task: 'bundle',
+            flavor: "tahfizulmilllat",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.tahfizulmilllat',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :alabrarnew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "alabrarnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.alabrarnew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :krishnanagar do
+
+    gradle(
+            task: 'bundle',
+            flavor: "krishnanagar",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.krishnanagar',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :dstqnew do
+
+    gradle(
+            task: 'bundle',
+            flavor: "dstqnew",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.dstqnew',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :scienceworld do
+
+    gradle(
+            task: 'bundle',
+            flavor: "scienceworld",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.scienceworld',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :educare do
+
+    gradle(
+            task: 'bundle',
+            flavor: "educare",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.educare',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :parerhat do
+
+    gradle(
+            task: 'bundle',
+            flavor: "parerhat",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.parerhat',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :afraacademy do
+
+    gradle(
+            task: 'bundle',
+            flavor: "afraacademy",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.afraacademy',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :onlineqaumi do
+
+    gradle(
+            task: 'bundle',
+            flavor: "onlineqaumi",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.onlineqaumi',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :paragoneducation do
+
+    gradle(
+            task: 'bundle',
+            flavor: "paragoneducation",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.paragoneducation',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :upsc do
+
+    gradle(
+            task: 'bundle',
+            flavor: "upsc",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.upsc',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :iqraidealmadrasahwmctg do
+
+    gradle(
+            task: 'bundle',
+            flavor: "iqraidealmadrasahwmctg",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.iqraidealmadrasahwmctg',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
+
+#===========================================
+desc "deploy each flavor"
+lane :anopamcoaching do
+
+    gradle(
+            task: 'bundle',
+            flavor: "anopamcoaching",
+            build_type: 'Release')
+
+    AAB_LOCATION = "#{lane_context[SharedValues::GRADLE_AAB_OUTPUT_PATH]}"
+
+    copy_artifacts(
+            artifacts: [AAB_LOCATION],
+            target_path: '~/Desktop/'
+    )
+
+    supply(
+            track: 'production',
+            package_name: 'com.softifybd.anopamcoaching',
+            skip_upload_images: true,
+            skip_upload_screenshots: true,
+            skip_upload_metadata: true,
+            skip_upload_apk: true,
+            aab: AAB_LOCATION
+    )
+end
+
